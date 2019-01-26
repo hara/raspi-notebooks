@@ -13,6 +13,11 @@ verify_ssl = true
 [packages]
 jupyter = "*"
 rpi-gpio = "*"
+explorerhat = "*"
+smbus-cffi = "*"
 
 [requires]
 python_version = "3"
+
+[scripts]
+start = "jupyter notebook"
